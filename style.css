@@ -41,7 +41,7 @@ body {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: left;
 }
 
 .header .align-element .logo {
@@ -75,6 +75,7 @@ body {
     align-items: center;
     justify-content: space-between;
     transition: background .3s ease-in-out;
+    margin: 0 363px; 
 }
 
 .header .align-element .search-input .input-box:hover {
@@ -361,7 +362,7 @@ body {
 .videos {
     position: absolute;
     left: 15%;
-    top: 60px;
+    top: 100px;
     width: 85%;
     height: 100vh;
     scroll-snap-type: y mandatory;
